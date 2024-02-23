@@ -105,7 +105,7 @@ paths:
           in: query
           name: after
           description: 投稿日時が指定日時より後
-          example: 2006-01-02T15:04:05.000000Z
+          example: 2006-01-02T15:04:05.000000000Z
         - schema:
             type: string
             format: RFC3339Nano
@@ -113,7 +113,7 @@ paths:
           in: query
           name: before
           description: 投稿日時が指定日時より前
-          example: 2006-01-02T15:04:05.000000Z
+          example: 2006-01-02T15:04:05.000000000Z
         - schema:
             type: string
             format: uuid
