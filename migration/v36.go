@@ -13,7 +13,7 @@ func v36() *gormigrate.Migration {
 			roles := []v36UserRole{
 				{
 					Name:        "client",
-					Oauth2Scope: true,
+					Oauth2Scope: false,
 					System:      true,
 					Permissions: []v36RolePermission{
 						{
